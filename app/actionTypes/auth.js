@@ -1,0 +1,9 @@
+const PREFIX = "@@auth/";
+
+export const AUTH_INIT = `${PREFIX}AUTH_INIT`;
+export const AUTH_SUCCESS = `${PREFIX}AUTH_SUCCESS`;
+export const AUTH_SIGN_IN = `${PREFIX}AUTH_SIGN_IN`;
+export const AUTH_FAILURE = `${PREFIX}AUTH_FAILURE`;
+export const GET_USER_SUCCESS = `${PREFIX}GET_USER_SUCCESS`;
+
+export const RESET_NOTIFICATION = `${PREFIX}RESET_NOTIFICATION`;
